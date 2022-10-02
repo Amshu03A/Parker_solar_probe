@@ -1,0 +1,109 @@
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 10px 20px;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+    background-color: #fafa33;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+                margin: auto;
+                display: flex;
+                display: grid;
+}
+
+.styled:hover {
+    background-color: #A69E94;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px #A69E94,
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.diff{
+    border: 0;
+    line-height: 2.5;
+    padding: 10px 20px;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+    font-size: 2rem;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+    background-color: #fafa33;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+                margin: auto;
+                display: flex;
+                display: grid;
+}
+.diff:hover{
+    background-color: #A69E94;
+}
+.diff:active{
+    box-shadow: inset -2px -2px 3px #A69E94,
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.navbar{
+    background-color: #404040;
+
+  }
+  .navbar h2{
+    float: left;
+    margin: 13px 20px;
+    color: white;
+  }
+  .navbar li{
+    float: right;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+body{
+    background-color:#A69E94 ;
+}
+a:link, a:visited {
+    color: white;
+    margin: 13px 20px;
+    text-align: left;
+    text-decoration: none;
+    display:inline-flexbox;
+}
+a:hover, a:active {
+    background-color: #734838;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+}
